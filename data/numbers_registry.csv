@@ -1,0 +1,376 @@
+name,value,unit,source_file,how_computed
+G2_threshold_NSE,0.8,NSE,rv4/config.py,config
+G1_threshold_NSE,0.6,NSE,rv4/config.py,config
+network_reliability_ge_G1_attainable_current,0.9695,probability,ms_network_reliability_final.csv,"mean over attainable series and days of 1[state>=G1], real joint outage states 2005-2016"
+network_reliability_ge_G1_attainable_ci_current,0.9585-0.9786,probability,ms_network_reliability_final.csv,30-day block bootstrap 95% CI (300 resamples)
+P_all_attainable_series_ge_G1_current,0.2932,probability,ms_network_reliability_final.csv,share of days on which every attainable series is >= G1
+P_G2_mean_current,0.6759,probability,ms_network_reliability_final.csv,mean P(G2) over all 114 series
+n_active_stations_current,119,stations,ms_network_reliability_final.csv,distinct stations used as inputs plus targets
+network_reliability_ge_G1_attainable_k1_P1,0.9689,probability,ms_network_reliability_final.csv,"mean over attainable series and days of 1[state>=G1], real joint outage states 2005-2016"
+network_reliability_ge_G1_attainable_ci_k1_P1,0.9588-0.9785,probability,ms_network_reliability_final.csv,30-day block bootstrap 95% CI (300 resamples)
+P_all_attainable_series_ge_G1_k1_P1,0.2898,probability,ms_network_reliability_final.csv,share of days on which every attainable series is >= G1
+P_G2_mean_k1_P1,0.6756,probability,ms_network_reliability_final.csv,mean P(G2) over all 114 series
+n_active_stations_k1_P1,108,stations,ms_network_reliability_final.csv,distinct stations used as inputs plus targets
+network_reliability_ge_G1_attainable_k1_P2,0.9863,probability,ms_network_reliability_final.csv,"mean over attainable series and days of 1[state>=G1], real joint outage states 2005-2016"
+network_reliability_ge_G1_attainable_ci_k1_P2,0.9824-0.9899,probability,ms_network_reliability_final.csv,30-day block bootstrap 95% CI (300 resamples)
+P_all_attainable_series_ge_G1_k1_P2,0.5371,probability,ms_network_reliability_final.csv,share of days on which every attainable series is >= G1
+P_G2_mean_k1_P2,0.7271,probability,ms_network_reliability_final.csv,mean P(G2) over all 114 series
+n_active_stations_k1_P2,88,stations,ms_network_reliability_final.csv,distinct stations used as inputs plus targets
+network_reliability_ge_G1_attainable_k2_P1,0.97,probability,ms_network_reliability_final.csv,"mean over attainable series and days of 1[state>=G1], real joint outage states 2005-2016"
+network_reliability_ge_G1_attainable_ci_k2_P1,0.9590-0.9779,probability,ms_network_reliability_final.csv,30-day block bootstrap 95% CI (300 resamples)
+P_all_attainable_series_ge_G1_k2_P1,0.318,probability,ms_network_reliability_final.csv,share of days on which every attainable series is >= G1
+P_G2_mean_k2_P1,0.676,probability,ms_network_reliability_final.csv,mean P(G2) over all 114 series
+n_active_stations_k2_P1,109,stations,ms_network_reliability_final.csv,distinct stations used as inputs plus targets
+network_reliability_ge_G1_attainable_k2_P2,0.9909,probability,ms_network_reliability_final.csv,"mean over attainable series and days of 1[state>=G1], real joint outage states 2005-2016"
+network_reliability_ge_G1_attainable_ci_k2_P2,0.9882-0.9932,probability,ms_network_reliability_final.csv,30-day block bootstrap 95% CI (300 resamples)
+P_all_attainable_series_ge_G1_k2_P2,0.6703,probability,ms_network_reliability_final.csv,share of days on which every attainable series is >= G1
+P_G2_mean_k2_P2,0.7967,probability,ms_network_reliability_final.csv,mean P(G2) over all 114 series
+n_active_stations_k2_P2,88,stations,ms_network_reliability_final.csv,distinct stations used as inputs plus targets
+network_reliability_ge_G1_attainable_k3_P2,0.9951,probability,ms_network_reliability_final.csv,"mean over attainable series and days of 1[state>=G1], real joint outage states 2005-2016"
+network_reliability_ge_G1_attainable_ci_k3_P2,0.9938-0.9963,probability,ms_network_reliability_final.csv,30-day block bootstrap 95% CI (300 resamples)
+P_all_attainable_series_ge_G1_k3_P2,0.6897,probability,ms_network_reliability_final.csv,share of days on which every attainable series is >= G1
+P_G2_mean_k3_P2,0.815,probability,ms_network_reliability_final.csv,mean P(G2) over all 114 series
+n_active_stations_k3_P2,82,stations,ms_network_reliability_final.csv,distinct stations used as inputs plus targets
+n_spof_series_current,74,series,ms_spof_summary_final.csv,series with all-up state >= G1 whose single input failure gives G0
+n_spof_stations_current,43,stations,ms_spof_summary_final.csv,distinct stations that are a SPOF for >= 1 series
+n_targets_with_spof_current,42,targets,ms_spof_summary_final.csv,targets with a SPOF in H or Q
+n_spof_series_k1_P1,83,series,ms_spof_summary_final.csv,series with all-up state >= G1 whose single input failure gives G0
+n_spof_stations_k1_P1,48,stations,ms_spof_summary_final.csv,distinct stations that are a SPOF for >= 1 series
+n_targets_with_spof_k1_P1,48,targets,ms_spof_summary_final.csv,targets with a SPOF in H or Q
+n_spof_series_k1_P2,64,series,ms_spof_summary_final.csv,series with all-up state >= G1 whose single input failure gives G0
+n_spof_stations_k1_P2,39,stations,ms_spof_summary_final.csv,distinct stations that are a SPOF for >= 1 series
+n_targets_with_spof_k1_P2,41,targets,ms_spof_summary_final.csv,targets with a SPOF in H or Q
+n_spof_series_k2_P1,65,series,ms_spof_summary_final.csv,series with all-up state >= G1 whose single input failure gives G0
+n_spof_stations_k2_P1,39,stations,ms_spof_summary_final.csv,distinct stations that are a SPOF for >= 1 series
+n_targets_with_spof_k2_P1,38,targets,ms_spof_summary_final.csv,targets with a SPOF in H or Q
+n_spof_series_k2_P2,14,series,ms_spof_summary_final.csv,series with all-up state >= G1 whose single input failure gives G0
+n_spof_stations_k2_P2,11,stations,ms_spof_summary_final.csv,distinct stations that are a SPOF for >= 1 series
+n_targets_with_spof_k2_P2,11,targets,ms_spof_summary_final.csv,targets with a SPOF in H or Q
+n_spof_series_k3_P2,7,series,ms_spof_summary_final.csv,series with all-up state >= G1 whose single input failure gives G0
+n_spof_stations_k3_P2,6,stations,ms_spof_summary_final.csv,distinct stations that are a SPOF for >= 1 series
+n_targets_with_spof_k3_P2,6,targets,ms_spof_summary_final.csv,targets with a SPOF in H or Q
+graph_targets_with_in_degree_1,37,targets,ress_v3/results/A_node_table.csv,"frozen links, targets with exactly one upstream station"
+v3_binary_rule_spof_series_current,112,series,ress_v3/results/E_spof_summary.csv,v3 demand = current NSE - tolerance (replaced by the multi-state rule)
+sensitivity_0.8/0.6_current_network_reliability,0.9695,probability,ms_threshold_sensitivity_final.csv,same computation with thresholds G2/G1 = 0.8/0.6
+sensitivity_0.8/0.6_current_n_spof_series,74,series,ms_threshold_sensitivity_final.csv,same computation with thresholds G2/G1 = 0.8/0.6
+sensitivity_0.8/0.6_k2_P2_network_reliability,0.9909,probability,ms_threshold_sensitivity_final.csv,same computation with thresholds G2/G1 = 0.8/0.6
+sensitivity_0.8/0.6_k2_P2_n_spof_series,14,series,ms_threshold_sensitivity_final.csv,same computation with thresholds G2/G1 = 0.8/0.6
+sensitivity_0.85/0.7_current_network_reliability,0.9704,probability,ms_threshold_sensitivity_final.csv,same computation with thresholds G2/G1 = 0.85/0.7
+sensitivity_0.85/0.7_current_n_spof_series,70,series,ms_threshold_sensitivity_final.csv,same computation with thresholds G2/G1 = 0.85/0.7
+sensitivity_0.85/0.7_k2_P2_network_reliability,0.9891,probability,ms_threshold_sensitivity_final.csv,same computation with thresholds G2/G1 = 0.85/0.7
+sensitivity_0.85/0.7_k2_P2_n_spof_series,28,series,ms_threshold_sensitivity_final.csv,same computation with thresholds G2/G1 = 0.85/0.7
+sensitivity_0.75/0.5_current_network_reliability,0.9698,probability,ms_threshold_sensitivity_final.csv,same computation with thresholds G2/G1 = 0.75/0.5
+sensitivity_0.75/0.5_current_n_spof_series,76,series,ms_threshold_sensitivity_final.csv,same computation with thresholds G2/G1 = 0.75/0.5
+sensitivity_0.75/0.5_k2_P2_network_reliability,0.9912,probability,ms_threshold_sensitivity_final.csv,same computation with thresholds G2/G1 = 0.75/0.5
+sensitivity_0.75/0.5_k2_P2_n_spof_series,14,series,ms_threshold_sensitivity_final.csv,same computation with thresholds G2/G1 = 0.75/0.5
+stations_removed_ms_k1_P1_raw,20,stations,reconciliation_table.csv,119 - active stations
+links_added_ms_k1_P1_raw,3,links,reconciliation_table.csv,series-level inputs that are not frozen direct links
+network_reliability_ms_k1_P1_raw,0.9682,probability,reconciliation_table.csv,as above on attainable series
+stations_removed_ms_k1_P1_repaired,10,stations,reconciliation_table.csv,119 - active stations
+links_added_ms_k1_P1_repaired,19,links,reconciliation_table.csv,series-level inputs that are not frozen direct links
+network_reliability_ms_k1_P1_repaired,0.9689,probability,reconciliation_table.csv,as above on attainable series
+stations_removed_v3_k1_P1_raw,13,stations,reconciliation_table.csv,119 - active stations
+links_added_v3_k1_P1_raw,5,links,reconciliation_table.csv,series-level inputs that are not frozen direct links
+network_reliability_v3_k1_P1_raw,0.9683,probability,reconciliation_table.csv,as above on attainable series
+stations_removed_v3_k1_P1_repaired,10,stations,reconciliation_table.csv,119 - active stations
+links_added_v3_k1_P1_repaired,11,links,reconciliation_table.csv,series-level inputs that are not frozen direct links
+network_reliability_v3_k1_P1_repaired,0.9683,probability,reconciliation_table.csv,as above on attainable series
+stations_removed_ms_k1_P2_raw,52,stations,reconciliation_table.csv,119 - active stations
+links_added_ms_k1_P2_raw,62,links,reconciliation_table.csv,series-level inputs that are not frozen direct links
+network_reliability_ms_k1_P2_raw,0.9886,probability,reconciliation_table.csv,as above on attainable series
+stations_removed_ms_k1_P2_repaired,30,stations,reconciliation_table.csv,119 - active stations
+links_added_ms_k1_P2_repaired,122,links,reconciliation_table.csv,series-level inputs that are not frozen direct links
+network_reliability_ms_k1_P2_repaired,0.9863,probability,reconciliation_table.csv,as above on attainable series
+stations_removed_v3_k1_P2_raw,36,stations,reconciliation_table.csv,119 - active stations
+links_added_v3_k1_P2_raw,57,links,reconciliation_table.csv,series-level inputs that are not frozen direct links
+network_reliability_v3_k1_P2_raw,0.9803,probability,reconciliation_table.csv,as above on attainable series
+stations_removed_v3_k1_P2_repaired,27,stations,reconciliation_table.csv,119 - active stations
+links_added_v3_k1_P2_repaired,75,links,reconciliation_table.csv,series-level inputs that are not frozen direct links
+network_reliability_v3_k1_P2_repaired,0.9807,probability,reconciliation_table.csv,as above on attainable series
+stations_removed_ms_k2_P1_raw,13,stations,reconciliation_table.csv,119 - active stations
+links_added_ms_k2_P1_raw,26,links,reconciliation_table.csv,series-level inputs that are not frozen direct links
+network_reliability_ms_k2_P1_raw,0.97,probability,reconciliation_table.csv,as above on attainable series
+stations_removed_ms_k2_P1_repaired,9,stations,reconciliation_table.csv,119 - active stations
+links_added_ms_k2_P1_repaired,32,links,reconciliation_table.csv,series-level inputs that are not frozen direct links
+network_reliability_ms_k2_P1_repaired,0.97,probability,reconciliation_table.csv,as above on attainable series
+stations_removed_v3_k2_P1_raw,10,stations,reconciliation_table.csv,119 - active stations
+links_added_v3_k2_P1_raw,22,links,reconciliation_table.csv,series-level inputs that are not frozen direct links
+network_reliability_v3_k2_P1_raw,0.969,probability,reconciliation_table.csv,as above on attainable series
+stations_removed_v3_k2_P1_repaired,7,stations,reconciliation_table.csv,119 - active stations
+links_added_v3_k2_P1_repaired,29,links,reconciliation_table.csv,series-level inputs that are not frozen direct links
+network_reliability_v3_k2_P1_repaired,0.9698,probability,reconciliation_table.csv,as above on attainable series
+stations_removed_ms_k2_P2_raw,46,stations,reconciliation_table.csv,119 - active stations
+links_added_ms_k2_P2_raw,149,links,reconciliation_table.csv,series-level inputs that are not frozen direct links
+network_reliability_ms_k2_P2_raw,0.9948,probability,reconciliation_table.csv,as above on attainable series
+stations_removed_ms_k2_P2_repaired,27,stations,reconciliation_table.csv,119 - active stations
+links_added_ms_k2_P2_repaired,158,links,reconciliation_table.csv,series-level inputs that are not frozen direct links
+network_reliability_ms_k2_P2_repaired,0.9909,probability,reconciliation_table.csv,as above on attainable series
+stations_removed_v3_k2_P2_raw,22,stations,reconciliation_table.csv,119 - active stations
+links_added_v3_k2_P2_raw,144,links,reconciliation_table.csv,series-level inputs that are not frozen direct links
+network_reliability_v3_k2_P2_raw,0.9868,probability,reconciliation_table.csv,as above on attainable series
+stations_removed_v3_k2_P2_repaired,18,stations,reconciliation_table.csv,119 - active stations
+links_added_v3_k2_P2_repaired,155,links,reconciliation_table.csv,series-level inputs that are not frozen direct links
+network_reliability_v3_k2_P2_repaired,0.9908,probability,reconciliation_table.csv,as above on attainable series
+stations_removed_v2_knee_raw,12,stations,reconciliation_table.csv,119 - active stations
+links_added_v2_knee_raw,24,links,reconciliation_table.csv,series-level inputs that are not frozen direct links
+network_reliability_v2_knee_raw,0.9729,probability,reconciliation_table.csv,as above on attainable series
+stations_removed_v2_knee_repaired,12,stations,reconciliation_table.csv,119 - active stations
+links_added_v2_knee_repaired,24,links,reconciliation_table.csv,series-level inputs that are not frozen direct links
+network_reliability_v2_knee_repaired,0.9729,probability,reconciliation_table.csv,as above on attainable series
+stations_removed_v2_aggressive_raw,24,stations,reconciliation_table.csv,119 - active stations
+links_added_v2_aggressive_raw,47,links,reconciliation_table.csv,series-level inputs that are not frozen direct links
+network_reliability_v2_aggressive_raw,0.9803,probability,reconciliation_table.csv,as above on attainable series
+stations_removed_v2_aggressive_repaired,24,stations,reconciliation_table.csv,119 - active stations
+links_added_v2_aggressive_repaired,47,links,reconciliation_table.csv,series-level inputs that are not frozen direct links
+network_reliability_v2_aggressive_repaired,0.9803,probability,reconciliation_table.csv,as above on attainable series
+series_failing_four_model_rules_raw_ms_k1_P1,26,series,verification_repair_summary.csv,R-v2 and R-ms (see s2_verify_repair.py)
+series_failing_after_repair_ms_k1_P1,0,series,verification_repair_summary.csv,after minimum repair
+series_failing_four_model_rules_raw_v3_k1_P1,12,series,verification_repair_summary.csv,R-v2 and R-ms (see s2_verify_repair.py)
+series_failing_after_repair_v3_k1_P1,0,series,verification_repair_summary.csv,after minimum repair
+series_failing_four_model_rules_raw_ms_k1_P2,51,series,verification_repair_summary.csv,R-v2 and R-ms (see s2_verify_repair.py)
+series_failing_after_repair_ms_k1_P2,0,series,verification_repair_summary.csv,after minimum repair
+series_failing_four_model_rules_raw_v3_k1_P2,16,series,verification_repair_summary.csv,R-v2 and R-ms (see s2_verify_repair.py)
+series_failing_after_repair_v3_k1_P2,0,series,verification_repair_summary.csv,after minimum repair
+series_failing_four_model_rules_raw_ms_k2_P1,70,series,verification_repair_summary.csv,R-v2 and R-ms (see s2_verify_repair.py)
+series_failing_after_repair_ms_k2_P1,61,series,verification_repair_summary.csv,after minimum repair
+series_failing_four_model_rules_raw_v3_k2_P1,81,series,verification_repair_summary.csv,R-v2 and R-ms (see s2_verify_repair.py)
+series_failing_after_repair_v3_k2_P1,61,series,verification_repair_summary.csv,after minimum repair
+series_failing_four_model_rules_raw_ms_k2_P2,31,series,verification_repair_summary.csv,R-v2 and R-ms (see s2_verify_repair.py)
+series_failing_after_repair_ms_k2_P2,8,series,verification_repair_summary.csv,after minimum repair
+series_failing_four_model_rules_raw_v3_k2_P2,25,series,verification_repair_summary.csv,R-v2 and R-ms (see s2_verify_repair.py)
+series_failing_after_repair_v3_k2_P2,7,series,verification_repair_summary.csv,after minimum repair
+series_failing_four_model_rules_raw_v2_knee,0,series,verification_repair_summary.csv,R-v2 and R-ms (see s2_verify_repair.py)
+series_failing_after_repair_v2_knee,0,series,verification_repair_summary.csv,after minimum repair
+series_failing_four_model_rules_raw_v2_aggressive,0,series,verification_repair_summary.csv,R-v2 and R-ms (see s2_verify_repair.py)
+series_failing_after_repair_v2_aggressive,0,series,verification_repair_summary.csv,after minimum repair
+fault_detection_rate_k=1_step_0.1,0.266,fraction,fault_ar_primary.csv,"primary method (B for k=1, C for k>=2); 6 onsets x inputs x series, validation 2013-2016"
+fault_detection_rate_k=1_step_0.25,0.477,fraction,fault_ar_primary.csv,"primary method (B for k=1, C for k>=2); 6 onsets x inputs x series, validation 2013-2016"
+fault_detection_rate_k=1_step_0.5,0.685,fraction,fault_ar_primary.csv,"primary method (B for k=1, C for k>=2); 6 onsets x inputs x series, validation 2013-2016"
+fault_detection_rate_k=2_step_0.1,0.278,fraction,fault_ar_primary.csv,"primary method (B for k=1, C for k>=2); 6 onsets x inputs x series, validation 2013-2016"
+fault_detection_rate_k=2_step_0.25,0.519,fraction,fault_ar_primary.csv,"primary method (B for k=1, C for k>=2); 6 onsets x inputs x series, validation 2013-2016"
+fault_detection_rate_k=2_step_0.5,0.711,fraction,fault_ar_primary.csv,"primary method (B for k=1, C for k>=2); 6 onsets x inputs x series, validation 2013-2016"
+fault_detection_rate_k>=3_step_0.1,0.448,fraction,fault_ar_primary.csv,"primary method (B for k=1, C for k>=2); 6 onsets x inputs x series, validation 2013-2016"
+fault_detection_rate_k>=3_step_0.25,0.573,fraction,fault_ar_primary.csv,"primary method (B for k=1, C for k>=2); 6 onsets x inputs x series, validation 2013-2016"
+fault_detection_rate_k>=3_step_0.5,0.75,fraction,fault_ar_primary.csv,"primary method (B for k=1, C for k>=2); 6 onsets x inputs x series, validation 2013-2016"
+fault_false_alarm_rate_validation_k=1,0.0155,fraction,fault_ar_by_k.csv,fault-free validation days above the threshold set for 1% on 2005-2012
+fault_false_alarm_rate_validation_k=2,0.0179,fraction,fault_ar_by_k.csv,fault-free validation days above the threshold set for 1% on 2005-2012
+fault_false_alarm_rate_validation_k>=3,0.0283,fraction,fault_ar_by_k.csv,fault-free validation days above the threshold set for 1% on 2005-2012
+fault_isolation_rate_k>=3_LOO,0.679,fraction,fault_ar_by_k.csv,leave-one-out agreement at the alarm day
+fault_isolation_rate_k=2_with_target,0.797,fraction,fault_ar_by_k.csv,tie-break with the target observation
+weibull_tbf_median_shape,0.6,-,p2_weibull_fits_station.csv,median over stations with >=5 time-between-failure samples
+weibull_tbf_share_shape_lt_1,0.891,fraction,p2_weibull_fits_station.csv,share of fitted stations with shape < 1
+weibull_tbf_n_stations_fitted,55,stations,p2_weibull_fits_station.csv,n >= 5
+weibull_tbf_median_AIC_advantage_over_exponential,2.69,AIC units,p2_weibull_fits_station.csv,"AIC_exponential - AIC_weibull, median"
+availability_median_either,0.9859,fraction,p2_availability_mtbf_mttr.csv,median over 119 stations (H or Q present)
+mc_independent_current_N20000_estimate,0.9696,probability,p2_mc_convergence.csv,running mean at N = 20000
+mc_independent_current_N20000_ci_halfwidth,0.00022,probability,p2_mc_convergence.csv,1.96 se
+fault_tree_top_event_02AB008_H_current_analytical,0.2368240930869267,probability,p2_faulttree_summary.csv,"exact enumeration, independent basic events"
+fault_tree_top_event_02AB008_H_current_MC,0.237245,probability,p2_faulttree_summary.csv,N=200000 independent
+fault_tree_top_event_02AB008_H_k2_P2_analytical,0.2368240930869267,probability,p2_faulttree_summary.csv,"exact enumeration, independent basic events"
+fault_tree_top_event_02AB008_H_k2_P2_MC,0.23827,probability,p2_faulttree_summary.csv,N=200000 independent
+fault_tree_top_event_02HD019_H_current_analytical,0.1154460415240702,probability,p2_faulttree_summary.csv,"exact enumeration, independent basic events"
+fault_tree_top_event_02HD019_H_current_MC,0.11532,probability,p2_faulttree_summary.csv,N=200000 independent
+fault_tree_top_event_02HD019_H_k2_P2_analytical,0.0002658394194403,probability,p2_faulttree_summary.csv,"exact enumeration, independent basic events"
+fault_tree_top_event_02HD019_H_k2_P2_MC,0.00028,probability,p2_faulttree_summary.csv,N=200000 independent
+ms_design_k1_P1_removed_RidgeOnly_raw,20,stations,design_levels_ms.csv,"exact ILP under multi-state G1 rule, Ridge fallback tables (not four-model verified)"
+ms_design_k1_P2_removed_RidgeOnly_raw,52,stations,design_levels_ms.csv,"exact ILP under multi-state G1 rule, Ridge fallback tables (not four-model verified)"
+ms_design_k2_P1_removed_RidgeOnly_raw,13,stations,design_levels_ms.csv,"exact ILP under multi-state G1 rule, Ridge fallback tables (not four-model verified)"
+ms_design_k2_P2_removed_RidgeOnly_raw,46,stations,design_levels_ms.csv,"exact ILP under multi-state G1 rule, Ridge fallback tables (not four-model verified)"
+ms_design_k3_P1_removed_RidgeOnly_raw,9,stations,design_levels_ms.csv,"exact ILP under multi-state G1 rule, Ridge fallback tables (not four-model verified)"
+ms_design_k3_P2_removed_RidgeOnly_raw,37,stations,design_levels_ms.csv,"exact ILP under multi-state G1 rule, Ridge fallback tables (not four-model verified)"
+tree_dp_equals_ilp_components,96/96,components x levels,tree_dp_vs_ilp_ms.csv,tree DP optimum equals ILP optimum
+network_reliability_nofallback_current,0.9545,probability,x1_no_fallback_reliability.csv,all design inputs up AND full-pool state >= G1; real joint outages 2005-2016
+network_reliability_raw_observation_current,0.9937,probability,x1_no_fallback_reliability.csv,target station's own record present; real joint outages 2005-2016
+fallback_gain_current,0.0151,probability,x1_no_fallback_reliability.csv,reliability with fallback minus without fallback
+network_reliability_nofallback_k2_P2,0.9682,probability,x1_no_fallback_reliability.csv,all design inputs up AND full-pool state >= G1; real joint outages 2005-2016
+network_reliability_raw_observation_k2_P2,0.9934,probability,x1_no_fallback_reliability.csv,target station's own record present; real joint outages 2005-2016
+fallback_gain_k2_P2,0.0228,probability,x1_no_fallback_reliability.csv,reliability with fallback minus without fallback
+network_reliability_nofallback_k3_P2,0.9526,probability,x1_no_fallback_reliability.csv,as above; lower than the current network because k=3 designs require more inputs to be simultaneously up
+independent_vs_empirical_max_abs_difference,0.00013,probability,x5_fig02b_independent_vs_empirical.csv,max over six designs of |independent MC (N=20000) - real joint outage mean|
+beta_factor_null_mean,0.4404,-,x5_fig02a_beta_null_distribution.csv,"100 independent circular time-shift replicates, seed 20261106"
+beta_factor_null_p95,0.4726,-,x5_fig02a_beta_null_distribution.csv,95th percentile of the null replicates
+share_ge_G1_worst_1pct_days_current,0.7631,fraction,x2_worst_days.csv,mean over attainable series on the 1% of days with most stations down
+share_ge_G1_worst_1pct_days_k2_P2,0.945,fraction,x2_worst_days.csv,as above
+worst_joint_outage_day,2005-01-23,date,x2_worst_day_detail.csv,"day with the most stations simultaneously down, 2005-2016"
+worst_joint_outage_day_n_stations_down,28,stations,x2_worst_day_detail.csv,H or Q missing
+robustness_auc_cooutage_targeted_current,0.545,-,x2_commoncause_auc.csv,removal ordered by descending mean pairwise Jaccard of outage days
+robustness_auc_cooutage_targeted_k2_P2,0.704,-,x2_commoncause_auc.csv,as above
+largest_cooutage_cluster_n_stations,33,stations,x2_cluster_scenarios.csv,"average linkage on 1 - Jaccard, distance cut 0.97"
+share_ge_G1_largest_cluster_down_current,0.6916,fraction,x2_cluster_scenarios.csv,entire largest co-outage cluster forced down simultaneously
+n_removed_robustly_removable_k2_P2_repaired,26,stations,x3_selection_stability.csv,"of the 27 stations removed by the four-model repaired design, retention frequency <= 0.1"
+n_removed_unstable_k2_P2_repaired,1,stations,x3_selection_stability.csv,retention frequency between 0.1 and 0.9 over 200 noise-floor perturbation replicates
+n_removed_mean_k2_P2_raw,45.81,stations,x3_stability_summary.csv,mean over 200 noise-floor perturbation replicates (Ridge-only raw ILP)
+n_removed_sd_k2_P2_raw,0.99,stations,x3_stability_summary.csv,standard deviation over the same replicates
+series_reliability_p05_current,0.8796,probability,x5_fig03_reliability_quantiles.csv,5th percentile of per-series P(>=G1) over attainable series
+series_reliability_p05_k2_P2,0.9389,probability,x5_fig03_reliability_quantiles.csv,as above
+n_series_below_0p95_current,26,series,x5_fig03_reliability_quantiles.csv,attainable series with P(>=G1) < 0.95
+n_series_below_0p95_k2_P2,6,series,x5_fig03_reliability_quantiles.csv,as above
+corr_direct_neighbour_H,0.909,|Pearson r|,x15_corr_vs_graph.csv,"median over 87 direct-neighbour pairs, training period 2005-2012"
+corr_direct_neighbour_Q,0.951,|Pearson r|,x15_corr_vs_graph.csv,"median over 87 direct-neighbour pairs, training period"
+corr_same_component_H,0.813,|Pearson r|,x15_corr_vs_graph.csv,median over 336 same-component non-adjacent pairs
+corr_same_component_Q,0.857,|Pearson r|,x15_corr_vs_graph.csv,median over 336 same-component non-adjacent pairs
+corr_diff_component_H,0.595,|Pearson r|,x15_corr_vs_graph.csv,median over 6598 different-component pairs
+corr_diff_component_Q,0.663,|Pearson r|,x15_corr_vs_graph.csv,median over 6598 different-component pairs
+spearman_graphdist_corr_H,-0.466,rho,x15_corr_vs_graph.csv,"Spearman(graph distance, |r|) within components"
+spearman_graphdist_corr_Q,-0.608,rho,x15_corr_vs_graph.csv,"Spearman(graph distance, |r|) within components"
+pool_members_graph_connected,323,count,x16_pool_class_ablation.csv,direct + same-component members over 114 fitted series
+pool_members_correlation_only,527,count,x16_pool_class_ablation.csv,members in a different physical component
+nse_full_pool_H,0.903,NSE,x16_pool_class_ablation.csv,"median validation NSE 2013-2016, RidgeFast, fold 2"
+nse_full_pool_Q,0.947,NSE,x16_pool_class_ablation.csv,median validation NSE 2013-2016
+nse_graph_connected_only_H,0.838,NSE,x16_pool_class_ablation.csv,pool restricted to same-component inputs
+nse_graph_connected_only_Q,0.911,NSE,x16_pool_class_ablation.csv,pool restricted to same-component inputs
+nse_correlation_only_H,0.847,NSE,x16_pool_class_ablation.csv,pool restricted to different-component inputs
+nse_correlation_only_Q,0.897,NSE,x16_pool_class_ablation.csv,pool restricted to different-component inputs
+dnse_drop_corr_only_H,-0.03,NSE,x16_pool_class_ablation.csv,median change when correlation-only inputs are removed
+dnse_drop_corr_only_Q,-0.021,NSE,x16_pool_class_ablation.csv,median change when correlation-only inputs are removed
+dnse_drop_connected_H,-0.024,NSE,x16_pool_class_ablation.csv,median change when graph-connected inputs are removed
+dnse_drop_connected_Q,-0.043,NSE,x16_pool_class_ablation.csv,median change when graph-connected inputs are removed
+G2_share_full_pool_H,86.0,percent,x16_pool_class_ablation.csv,share of H series with validation NSE >= 0.8
+G2_share_connected_only_H,59.6,percent,x16_pool_class_ablation.csv,"share of H series >= 0.8, graph-connected inputs only"
+delivered_reliability_current,0.9994,probability,x6_delivered_reliability.csv,"P(own record present OR estimate >= G1), empirical joint law"
+delivered_reliability_k2_P2,0.9999,probability,x6_delivered_reliability.csv,P(own record present OR estimate >= G1)
+unserved_target_day_reduction,82,percent,x6_delivered_reliability.csv,"reduction in residual gap rate, current -> k2_P2"
+reliability_on_gap_days_current,0.898,probability,x6_delivered_reliability.csv,reliability restricted to days with a gap in the target record
+reliability_on_gap_days_k2_P2,0.982,probability,x6_delivered_reliability.csv,reliability restricted to days with a gap
+nse_allday_current,0.883,NSE,w1_commonmode.py stdout,"median series NSE, validation period, unflagged series"
+nse_highflow_current,0.636,NSE,w1_commonmode.py stdout,median series NSE on the highest 10% of flow days
+nse_allday_k2_P2,0.906,NSE,w1_commonmode.py stdout,"median series NSE, validation period"
+nse_highflow_k2_P2,0.716,NSE,w1_commonmode.py stdout,median series NSE on the highest 10% of flow days
+G1_share_highflow_current,52.6,percent,w1_commonmode.py stdout,share of series >= G1 on high-flow days
+G1_share_highflow_k2_P2,62.3,percent,w1_commonmode.py stdout,share of series >= G1 on high-flow days
+residual_comovement_shared_input,0.153,|rho|,x9_residual_comovement.csv,"median |corr| of standardised residuals, pairs sharing a statistical input"
+residual_comovement_null,0.075,|rho|,w1_commonmode.py stdout,"median |corr| of standardised residuals, pairs sharing no input"
+spearman_statshare_highflow_drop,0.244,rho,w1_commonmode.py stdout,"Spearman(share of statistical inputs, high-flow NSE drop)"
+dnse_transfer_current_EXPLORATORY,0.004,NSE,x8_temporal_transfer_EXPLORATORY.csv,median NSE change 2013-2016 -> 2017-2020; EXPLORATORY
+dnse_transfer_k2_P2_EXPLORATORY,0.005,NSE,x8_temporal_transfer_EXPLORATORY.csv,median NSE change; EXPLORATORY
+recoverable_G1_share_removed,94.4,percent,x11_removed_station_recoverability.csv,"removed-station series rebuildable at G1, k=2 design"
+recoverable_G2_share_removed,68.5,percent,x11_removed_station_recoverability.csv,removed-station series rebuildable at G2
+unrecoverable_stations_k2,02CF013;02ED015;02HD021,station ids,x11_removed_station_recoverability.csv,water-level record below G1 from retained network
+n_removed_recoverability_constrained,24,count,x12_recoverability_effect.csv,"k=2 design with Eq. (15), four-model verified"
+links_recoverability_constrained,110,count,x12_recoverability_effect.csv,added series-level links
+R_recoverability_constrained,0.9945,probability,x12_recoverability_effect.csv,network reliability over attainable series
+spof_recoverability_constrained,9,count,x12_recoverability_effect.csv,single-point-of-failure series
+attainable_recoverability_constrained,113,count,x12_recoverability_effect.csv,attainable series
+spearman_isolation_recoverability,0.091,rho,x14_isolation_vs_removability.csv,"Spearman(distance to nearest station, reconstruction NSE)"
+spearman_degree_recoverability,0.369,rho,x14_isolation_vs_removability.csv,"Spearman(number of physical neighbours, reconstruction NSE)"
+R_hardened_current_m12,0.9801,probability,x7_joint_frontier.csv,"current network, 12 hardened stations, rho=0.5"
+R_hardened_k2_P2_m8,0.9951,probability,x7_joint_frontier.csv,"k=2 design, 8 hardened stations, rho=0.5"
+hardening_first5_current,02AB024;02KD002;02MC028;02MC027;02GC011,station ids,x7_joint_frontier.csv,first five greedy hardening decisions
+treedp_hardening_components_matched,30/30,count,x7_treedp_vs_exhaustive.csv,DP optimum equals exhaustive enumeration
+greedy_vs_treedp_max_gap_hardening,0.0,percent,x7_lever2_forest.csv,"max relative gap greedy vs exact tree DP, m=0..12, physical forest"
+R_independent_current_m1,0.9693,probability,x17_severity_sweep.csv,"repair-time multiplier 1, independent mechanism; rho=0.5 hardening, beta=0.3 radius 50 km for common mode"
+R_independent_current_m8,0.8559,probability,x17_severity_sweep.csv,"repair-time multiplier 8, independent mechanism; rho=0.5 hardening, beta=0.3 radius 50 km for common mode"
+R_independent_k2_P1_m1,0.9701,probability,x17_severity_sweep.csv,"repair-time multiplier 1, independent mechanism; rho=0.5 hardening, beta=0.3 radius 50 km for common mode"
+R_independent_k2_P1_m8,0.86,probability,x17_severity_sweep.csv,"repair-time multiplier 8, independent mechanism; rho=0.5 hardening, beta=0.3 radius 50 km for common mode"
+R_independent_k2_P2_m1,0.9908,probability,x17_severity_sweep.csv,"repair-time multiplier 1, independent mechanism; rho=0.5 hardening, beta=0.3 radius 50 km for common mode"
+R_independent_k2_P2_m8,0.9595,probability,x17_severity_sweep.csv,"repair-time multiplier 8, independent mechanism; rho=0.5 hardening, beta=0.3 radius 50 km for common mode"
+R_independent_k2_P2_rec_m1,0.9947,probability,x17_severity_sweep.csv,"repair-time multiplier 1, independent mechanism; rho=0.5 hardening, beta=0.3 radius 50 km for common mode"
+R_independent_k2_P2_rec_m8,0.9725,probability,x17_severity_sweep.csv,"repair-time multiplier 8, independent mechanism; rho=0.5 hardening, beta=0.3 radius 50 km for common mode"
+R_independent_k2_P2_hard_m1,0.995,probability,x17_severity_sweep.csv,"repair-time multiplier 1, independent mechanism; rho=0.5 hardening, beta=0.3 radius 50 km for common mode"
+R_independent_k2_P2_hard_m8,0.972,probability,x17_severity_sweep.csv,"repair-time multiplier 8, independent mechanism; rho=0.5 hardening, beta=0.3 radius 50 km for common mode"
+R_observed_joint_current_m1,0.9695,probability,x17_severity_sweep.csv,"repair-time multiplier 1, observed_joint mechanism; rho=0.5 hardening, beta=0.3 radius 50 km for common mode"
+R_observed_joint_current_m8,0.7928,probability,x17_severity_sweep.csv,"repair-time multiplier 8, observed_joint mechanism; rho=0.5 hardening, beta=0.3 radius 50 km for common mode"
+R_observed_joint_k2_P1_m1,0.97,probability,x17_severity_sweep.csv,"repair-time multiplier 1, observed_joint mechanism; rho=0.5 hardening, beta=0.3 radius 50 km for common mode"
+R_observed_joint_k2_P1_m8,0.7973,probability,x17_severity_sweep.csv,"repair-time multiplier 8, observed_joint mechanism; rho=0.5 hardening, beta=0.3 radius 50 km for common mode"
+R_observed_joint_k2_P2_m1,0.9909,probability,x17_severity_sweep.csv,"repair-time multiplier 1, observed_joint mechanism; rho=0.5 hardening, beta=0.3 radius 50 km for common mode"
+R_observed_joint_k2_P2_m8,0.9387,probability,x17_severity_sweep.csv,"repair-time multiplier 8, observed_joint mechanism; rho=0.5 hardening, beta=0.3 radius 50 km for common mode"
+R_observed_joint_k2_P2_rec_m1,0.9945,probability,x17_severity_sweep.csv,"repair-time multiplier 1, observed_joint mechanism; rho=0.5 hardening, beta=0.3 radius 50 km for common mode"
+R_observed_joint_k2_P2_rec_m8,0.9624,probability,x17_severity_sweep.csv,"repair-time multiplier 8, observed_joint mechanism; rho=0.5 hardening, beta=0.3 radius 50 km for common mode"
+R_observed_joint_k2_P2_hard_m1,0.9954,probability,x17_severity_sweep.csv,"repair-time multiplier 1, observed_joint mechanism; rho=0.5 hardening, beta=0.3 radius 50 km for common mode"
+R_observed_joint_k2_P2_hard_m8,0.9598,probability,x17_severity_sweep.csv,"repair-time multiplier 8, observed_joint mechanism; rho=0.5 hardening, beta=0.3 radius 50 km for common mode"
+R_common_mode_current_m1,0.8969,probability,x17_severity_sweep.csv,"repair-time multiplier 1, common_mode mechanism; rho=0.5 hardening, beta=0.3 radius 50 km for common mode"
+R_common_mode_current_m8,0.4278,probability,x17_severity_sweep.csv,"repair-time multiplier 8, common_mode mechanism; rho=0.5 hardening, beta=0.3 radius 50 km for common mode"
+R_common_mode_k2_P1_m1,0.9013,probability,x17_severity_sweep.csv,"repair-time multiplier 1, common_mode mechanism; rho=0.5 hardening, beta=0.3 radius 50 km for common mode"
+R_common_mode_k2_P1_m8,0.4539,probability,x17_severity_sweep.csv,"repair-time multiplier 8, common_mode mechanism; rho=0.5 hardening, beta=0.3 radius 50 km for common mode"
+R_common_mode_k2_P2_m1,0.9238,probability,x17_severity_sweep.csv,"repair-time multiplier 1, common_mode mechanism; rho=0.5 hardening, beta=0.3 radius 50 km for common mode"
+R_common_mode_k2_P2_m8,0.5403,probability,x17_severity_sweep.csv,"repair-time multiplier 8, common_mode mechanism; rho=0.5 hardening, beta=0.3 radius 50 km for common mode"
+R_common_mode_k2_P2_rec_m1,0.9221,probability,x17_severity_sweep.csv,"repair-time multiplier 1, common_mode mechanism; rho=0.5 hardening, beta=0.3 radius 50 km for common mode"
+R_common_mode_k2_P2_rec_m8,0.5463,probability,x17_severity_sweep.csv,"repair-time multiplier 8, common_mode mechanism; rho=0.5 hardening, beta=0.3 radius 50 km for common mode"
+R_common_mode_k2_P2_hard_m1,0.9283,probability,x17_severity_sweep.csv,"repair-time multiplier 1, common_mode mechanism; rho=0.5 hardening, beta=0.3 radius 50 km for common mode"
+R_common_mode_k2_P2_hard_m8,0.5562,probability,x17_severity_sweep.csv,"repair-time multiplier 8, common_mode mechanism; rho=0.5 hardening, beta=0.3 radius 50 km for common mode"
+table_R_current,0.9695,probability,x18_design_comparison.csv,"observed joint outage law, attainable series"
+table_daysallG1_current,29.3,percent,x18_design_comparison.csv,days on which every attainable series is at G1 or better
+table_Rhighflow_current,0.962,probability,x18_design_comparison.csv,Eq. (9) restricted to the 10% highest network mean discharge days
+table_unserved_current,6.4,per 10^4 target-days,x18_design_comparison.csv,own record missing and estimate below G1
+table_spof_current,74,count,x18_design_comparison.csv,series with a minimum cut of one
+table_mincut_current,1.0,count,x18_design_comparison.csv,median minimum cut over attainable series
+table_resilience_current,1.791,series-days,x18_design_comparison.csv,mean loss over the three observed outage episodes
+table_R_k2_P1,0.97,probability,x18_design_comparison.csv,"observed joint outage law, attainable series"
+table_daysallG1_k2_P1,31.8,percent,x18_design_comparison.csv,days on which every attainable series is at G1 or better
+table_Rhighflow_k2_P1,0.9631,probability,x18_design_comparison.csv,Eq. (9) restricted to the 10% highest network mean discharge days
+table_unserved_k2_P1,4.9,per 10^4 target-days,x18_design_comparison.csv,own record missing and estimate below G1
+table_spof_k2_P1,65,count,x18_design_comparison.csv,series with a minimum cut of one
+table_mincut_k2_P1,1.0,count,x18_design_comparison.csv,median minimum cut over attainable series
+table_resilience_k2_P1,1.629,series-days,x18_design_comparison.csv,mean loss over the three observed outage episodes
+table_R_k2_P2,0.9909,probability,x18_design_comparison.csv,"observed joint outage law, attainable series"
+table_daysallG1_k2_P2,67.0,percent,x18_design_comparison.csv,days on which every attainable series is at G1 or better
+table_Rhighflow_k2_P2,0.9882,probability,x18_design_comparison.csv,Eq. (9) restricted to the 10% highest network mean discharge days
+table_unserved_k2_P2,1.2,per 10^4 target-days,x18_design_comparison.csv,own record missing and estimate below G1
+table_spof_k2_P2,14,count,x18_design_comparison.csv,series with a minimum cut of one
+table_mincut_k2_P2,2.0,count,x18_design_comparison.csv,median minimum cut over attainable series
+table_resilience_k2_P2,0.306,series-days,x18_design_comparison.csv,mean loss over the three observed outage episodes
+table_R_k2_P2_rec,0.9945,probability,x18_design_comparison.csv,"observed joint outage law, attainable series"
+table_daysallG1_k2_P2_rec,66.1,percent,x18_design_comparison.csv,days on which every attainable series is at G1 or better
+table_Rhighflow_k2_P2_rec,0.9934,probability,x18_design_comparison.csv,Eq. (9) restricted to the 10% highest network mean discharge days
+table_unserved_k2_P2_rec,0.2,per 10^4 target-days,x18_design_comparison.csv,own record missing and estimate below G1
+table_spof_k2_P2_rec,9,count,x18_design_comparison.csv,series with a minimum cut of one
+table_mincut_k2_P2_rec,2.0,count,x18_design_comparison.csv,median minimum cut over attainable series
+table_resilience_k2_P2_rec,0.407,series-days,x18_design_comparison.csv,mean loss over the three observed outage episodes
+table_R_k2_P2_hard,0.9954,probability,x18_design_comparison.csv,"observed joint outage law, attainable series"
+table_daysallG1_k2_P2_hard,81.2,percent,x18_design_comparison.csv,days on which every attainable series is at G1 or better
+table_Rhighflow_k2_P2_hard,0.9929,probability,x18_design_comparison.csv,Eq. (9) restricted to the 10% highest network mean discharge days
+table_unserved_k2_P2_hard,0.4,per 10^4 target-days,x18_design_comparison.csv,own record missing and estimate below G1
+table_spof_k2_P2_hard,14,count,x18_design_comparison.csv,series with a minimum cut of one
+table_mincut_k2_P2_hard,2.0,count,x18_design_comparison.csv,median minimum cut over attainable series
+table_resilience_k2_P2_hard,0.171,series-days,x18_design_comparison.csv,mean loss over the three observed outage episodes
+paired_n_series,107,count,x19_paired_series_reliability.csv,series attainable in both the current network and the recommended design
+paired_improved,44,count,x19_paired_series_reliability.csv,series with higher reliability after redesign
+paired_unchanged,59,count,x19_paired_series_reliability.csv,series unchanged
+paired_worsened,4,count,x19_paired_series_reliability.csv,series with lower reliability after redesign
+paired_lowdecile_before,0.8791,probability,x19_paired_series_reliability.csv,"median of the lowest reliability decile, current network"
+paired_lowdecile_after,0.9995,probability,x19_paired_series_reliability.csv,"same series, recommended design"
+paired_below095_improved,24 of 26,count,x19_paired_series_reliability.csv,series below 0.95 in the current network that improve
+paired_worst_series,02GD001|H,series,x19_paired_series_reliability.csv,"largest reliability loss, 1.000 -> 0.968"
+spearman_avail_mttr,-0.851,rho,fig04_mtbf_vs_mttr.csv,"Spearman(availability, MTTR) over 114 station-variables"
+spearman_avail_mtbf,0.726,rho,fig04_mtbf_vs_mttr.csv,"Spearman(availability, MTBF)"
+std_beta_logmttr,0.7,standardized coefficient,fig04_mtbf_vs_mttr.csv,regression of log(1-A) on log MTBF and log MTTR
+std_beta_logmtbf,-0.57,standardized coefficient,fig04_mtbf_vs_mttr.csv,regression of log(1-A) on log MTBF and log MTTR
+sd_log_mttr,1.21,log days,fig04_mtbf_vs_mttr.csv,standard deviation of log MTTR across stations
+sd_log_mtbf,0.97,log days,fig04_mtbf_vs_mttr.csv,standard deviation of log MTBF across stations
+weibull_n_fitted,110.0,count,fig02_weibull_parameters.csv,stations with a Weibull fit to times between failures
+weibull_shape_below1,98.0,count,fig02_weibull_parameters.csv,point estimate of the shape below one
+weibull_ci_below1,37.0,count,fig02_weibull_parameters.csv,95% interval entirely below one
+weibull_ci_includes1,71.0,count,fig02_weibull_parameters.csv,95% interval including one
+weibull_median_aic_diff,2.7,AIC,fig02_weibull_parameters.csv,median AIC(exponential) - AIC(Weibull)
+rec23_removed,23,stations,out/x22_master_designs.csv,k2_P2_rec23 row
+rec23_links,109,links,out/x22_master_designs.csv,k2_P2_rec23 row
+rec23_attainable,113,series,out/x22_master_designs.csv,k2_P2_rec23 row
+rec23_R,0.99477,reliability,out/x22_master_designs.csv,"shared bootstrap, 300 blocks"
+rec23_allG1_pct,69.2,percent,out/x22_master_designs.csv,k2_P2_rec23 row
+rec23_highflow_R,0.99365,reliability,out/x22_master_designs.csv,k2_P2_rec23 row
+rec23_unserved_per_1e4,0.1615,target-days,out/x22_master_designs.csv,k2_P2_rec23 row
+rec23_spof,8,series,out/x22_master_designs.csv,k2_P2_rec23 row
+rec23_resilience_loss,0.4041,series-days,out/x22_master_designs.csv,mean of three episodes
+severity_rec23_gamma8_joint,0.9641,reliability,out/x17_severity_sweep.csv,"observed joint, gamma=8"
+severity_current_gamma8_joint,0.7928,reliability,out/x17_severity_sweep.csv,"observed joint, gamma=8"
+severity_unreliability_ratio,5.8,ratio,out/x17_severity_sweep.csv,"(1-R_cur)/(1-R_rec), constant in gamma"
+episode_loss_current_range,1.42-2.30,series-days,f_resilience.episodes,"per-episode, three episodes"
+episode_loss_k2P2_range,0.00-0.49,series-days,f_resilience.episodes,"per-episode, three episodes"
+episode_loss_rec23_range,0.00-0.80,series-days,f_resilience.episodes,"per-episode, three episodes"
+heldout_train_days,4383.0,days,ssopt/config.py DEV,2005-2016
+heldout_test_days,1461.0,days,ssopt/config.py TEST,2017-2020
+heldout_median_nse_design_val,0.903,NSE,out/x23_heldout_skill.csv,median over 114 series
+heldout_median_nse_design_test,0.9148,NSE,out/x23_heldout_skill.csv,median over 114 series
+heldout_median_nse_current_val,0.8832,NSE,out/x23_heldout_skill.csv,median over 114 series
+heldout_median_nse_current_test,0.8814,NSE,out/x23_heldout_skill.csv,median over 114 series
+heldout_G1_design_test_pct,95.6,percent,out/x23_heldout_skill.csv,share >= G1
+heldout_G1_current_test_pct,91.2,percent,out/x23_heldout_skill.csv,share >= G1
+heldout_G2_design_test_pct,84.2,percent,out/x23_heldout_skill.csv,share >= G2
+heldout_below_G1_design_test,5.0,series,out/x23_heldout_skill.csv,count
+heldout_below_G1_current_test,10.0,series,out/x23_heldout_skill.csv,count
+pool_ancestor_members,157,members,ress_v3 cache fallback_tables.pkl,"connected minus direct, summed over 114 series"
+pool_members_total,850,members,ress_v3 cache fallback_tables.pkl,after the 12-member cap
+pool_statistical_members,527,members,ress_v3 cache fallback_tables.pkl,corr_only after the cap
+pool_series_capped,12,series,ress_v3 cache fallback_tables.pkl,series hitting the 12-member cap
+pool_cap,12,members,ssopt build_members CAP,maximum pool size
+corr_min_overlap_days,365,days,ssopt/config.py MIN_OVERLAP,minimum shared record for a statistical candidate
